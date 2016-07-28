@@ -1,0 +1,36 @@
+{
+  "name": "seneca-alimns-transport",
+  "version": "0.2.4",
+  "description": "A Seneca transport plugin for Aliyun-MNS",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib/*",
+    "test/*",
+    "examples/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@code.aliyun.com:shanrong-dev/seneca-alimns-transport.git"
+  },
+  "keywords": [
+    "seneca",
+    "transport",
+    "plugin",
+    "aliyun",
+    "mns"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ali-mns": "^2.2.3",
+    "lodash": "^4.5.1",
+    "uuid": "^2.0.1"
+  },
+  "peerDependencies": {
+    "seneca": "^1.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
